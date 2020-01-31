@@ -1,0 +1,49 @@
+// Castle, outside
+IF
+Global("O#DAEAreaOutside","GLOBAL",0)
+THEN
+RESPONSE #100
+Explore()
+CreateCreature("O#DAEGUY",[3405.2520],0)
+CreateCreature("O#DAEMOM",[1095.3275],11)
+CreateCreature("O#DAEKID",[1111.3310],9)
+CreateCreature("O#DAECAP",[647.3265],13)
+CreateCreature("O#DAEBOY",[2294.1318],3)
+CreateCreature("O#DAEJES",[792.3209],0)
+CreateCreature("O#DAEGHE",[883.3396],7)
+CreateCreature("TELALU1",[2392.1860],0)
+CreateCreature("GOLBUR01",[2233.1846],0)
+CreateCreature("GOLBUR01",[2418.1617],0)
+CreateCreature("elairg01",[2476.1790],0)
+CreateCreature("DEMOSUM1",[2358.1794],0)
+SetGlobal("O#DAEAreaOutside","GLOBAL",1)
+END
+
+IF
+Global("O#DAEMom","GLOBAL",1)
+Global("O#DAEDadHere","GLOBAL",0)
+THEN
+RESPONSE #100
+CreateCreature("O#DAEDAD",[3438.2960],0)
+SetGlobal("O#DAEDadHere","GLOBAL",1)
+END
+
+IF
+Global("O#DAEMom","GLOBAL",3)
+THEN
+RESPONSE #100
+ActionOverride("O#DAEMOM",DestroySelf())
+ActionOverride("O#DAEKID",DestroySelf())
+ActionOverride("O#DAEDAD",DestroySelf())
+SetGlobal("O#DAEMom","GLOBAL",4)
+END
+
+IF
+Global("O#DAEAreaFirst","GLOBAL",1)
+GlobalLT("O#DAEHelpfulDyingGuy","GLOBAL",3)
+Global("O#DAEAreaOutsideDelete","GLOBAL",0)
+THEN
+RESPONSE #100
+ActionOverride("O#DAEGUY",DestroySelf())
+SetGlobal("O#DAEAreaOutsideDelete","GLOBAL",1)
+END

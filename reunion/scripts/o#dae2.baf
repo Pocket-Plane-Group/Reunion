@@ -1,0 +1,120 @@
+// Castle, second floor
+IF
+Global("O#DAEAreaSecond","GLOBAL",0)
+THEN
+RESPONSE #100
+Explore()
+CreateCreature("O#DAEDEL",[628.1024],4)
+CreateCreature("O#DAEMAI",[578.1076],12)
+CreateCreature("elairg01",[1205.1033],0)
+CreateCreature("DEMSUC01",[1115.1091],0)
+CreateCreature("hgmis01",[785.1427],0)
+CreateCreature("hgmis01",[735.1420],0)
+CreateCreature("GOLBUR01",[1466.1604],0)
+CreateCreature("DEMOSUM1",[2372.1203],0)
+CreateCreature("TELALU1",[1390.740],0)
+CreateCreature("GOLBUR01",[1374.371],0)
+CreateCreature("GOLBUR01",[1108.373],0)
+SetGlobal("O#DAEAreaSecond","GLOBAL",1)
+END
+
+IF
+Global("O#DaemonTalk2","GLOBAL",0)
+Global("O#DAEAlianna1","GLOBAL",6)
+THEN
+RESPONSE #100
+CreateCreature("O#DAEMON",[715.610],0)
+SetGlobal("O#DaemonTalk2","GLOBAL",2)
+END
+
+IF
+Global("O#DaemonTalk1","GLOBAL",6)
+Global("O#DAEAlianna1","GLOBAL",0)
+OR(2)
+Race(Player1,ELF)
+Race(Player1,HALF_ELF)
+THEN
+RESPONSE #100
+CreateCreature("O#DAEAEL",[2025.793],0)
+SetGlobal("O#DAEAlianna1","GLOBAL",2)
+END
+
+IF
+Global("O#DaemonTalk1","GLOBAL",6)
+Global("O#DAEAlianna1","GLOBAL",0)
+Race(Player1,HALFLING)
+THEN
+RESPONSE #100
+CreateCreature("O#DAEAHA",[2025.793],0)
+SetGlobal("O#DAEAlianna1","GLOBAL",2)
+END
+
+IF
+Global("O#DaemonTalk1","GLOBAL",6)
+Global("O#DAEAlianna1","GLOBAL",0)
+OR(2)
+Race(Player1,GNOME)
+Race(Player1,DWARF)
+THEN
+RESPONSE #100
+CreateCreature("O#DAEADW",[2025.793],0)
+SetGlobal("O#DAEAlianna1","GLOBAL",2)
+END
+
+IF
+Global("O#DaemonTalk1","GLOBAL",6)
+Global("O#DAEAlianna1","GLOBAL",0)
+!Race(Player1,GNOME)
+!Race(Player1,DWARF)
+!Race(Player1,ELF)
+!Race(Player1,HALF_ELF)
+!Race(Player1,HALFLING)
+THEN
+RESPONSE #100
+CreateCreature("O#DAEAHU",[2025.793],0)
+SetGlobal("O#DAEAlianna1","GLOBAL",2)
+END
+
+IF
+Global("O#DAEAlianna1","GLOBAL",3)
+OR(2)
+Race(Player1,ELF)
+Race(Player1,HALF_ELF)
+THEN
+RESPONSE #100
+CreateCreature("O#DAEAEL",[1792.1464],3)
+SetGlobal("O#DAEAlianna1","GLOBAL",5)
+END
+
+IF
+Global("O#DAEAlianna1","GLOBAL",3)
+Race(Player1,HALFLING)
+THEN
+RESPONSE #100
+CreateCreature("O#DAEAHA",[1792.1464],3)
+SetGlobal("O#DAEAlianna1","GLOBAL",5)
+END
+
+IF
+Global("O#DAEAlianna1","GLOBAL",3)
+OR(2)
+Race(Player1,GNOME)
+Race(Player1,DWARF)
+THEN
+RESPONSE #100
+CreateCreature("O#DAEADW",[1792.1464],3)
+SetGlobal("O#DAEAlianna1","GLOBAL",5)
+END
+
+IF
+Global("O#DAEAlianna1","GLOBAL",3)
+!Race(Player1,GNOME)
+!Race(Player1,DWARF)
+!Race(Player1,ELF)
+!Race(Player1,HALF_ELF)
+!Race(Player1,HALFLING)
+THEN
+RESPONSE #100
+CreateCreature("O#DAEAHU",[1792.1464],3)
+SetGlobal("O#DAEAlianna1","GLOBAL",5)
+END

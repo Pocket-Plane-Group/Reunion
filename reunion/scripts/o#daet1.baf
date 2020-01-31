@@ -1,0 +1,23 @@
+IF
+True()
+THEN
+RESPONSE #100
+CutSceneId(Player1)
+Wait(1)
+FadeToColor([20.0],0)
+Wait(1)
+LeaveAreaLUA("O#DAE0","",[4097.2889],0)
+ActionOverride(Player2,LeaveAreaLUA("O#DAE0","",[4097.2869],0))
+ActionOverride(Player3,LeaveAreaLUA("O#DAE0","",[4067.2879],0))
+ActionOverride(Player4,LeaveAreaLUA("O#DAE0","",[4077.2859],0))
+ActionOverride(Player5,LeaveAreaLUA("O#DAE0","",[4087.2899],0))
+ActionOverride(Player6,LeaveAreaLUA("O#DAE0","",[4090.2889],0))
+MultiPlayerSync()
+Explore()
+SmallWait(1)
+Wait(1)
+FadeFromColor([20.0],0)
+MoveViewObject(Player1,INSTANT)
+Wait(1)
+EndCutSceneMode()
+END

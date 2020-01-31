@@ -1,0 +1,10 @@
+IF
+Global("O#DAEAlianna1","GLOBAL",9) 
+Global("O#GorionTalk","GLOBAL",0)
+AreaCheck("AR4500")
+THEN
+RESPONSE #100
+SetGlobal("O#GorionTalk","GLOBAL",2)
+StartCutSceneMode()
+StartCutScene("O#DECut3")
+END

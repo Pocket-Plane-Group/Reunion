@@ -1,0 +1,236 @@
+@0 = ~Mod Reunion pour Baldur's Gate II~
+@1 = ~L'extension Throne of Bhaal ne semble pas etre installee. L'extension Throne of Bhaal est requise pour pouvoir installer le mod Reunion.~
+@2 = ~Je refuse de croire que je suis un fantôme ! Ici c'est MON château !~
+@3 = ~Il appartient à notre famille depuis des générations !~
+@4 = ~Vous ! Trouvez mon insolente nièce MAINTENANT, ou fichez le camp !~
+@5 = ~Cela suffit, je m'en vais !~
+@6 = ~Capitaine Arat~
+@7 = ~Petit garçon~
+@8 = ~Jessup~
+@9 = ~Chanelle~
+@10 = ~Lanie~
+@11 = ~Miranda~
+@12 = ~Wes~
+@13 = ~Gheed~
+@14 = ~Daemon~
+@15 = ~Alianna~
+@16 = ~Gorion~
+@17 = ~Homme blessé~
+@18 = ~Majordome maléfique~
+@19 = ~Dame Delcia~
+@20 = ~Servante terrifiée~
+@21 = ~Pierre de téléportation de Nalia~
+@22 = ~Cette pierre vous permettra de vous téléporter sans erreur depuis n'importe quel endroit vers le château de Nalia, et du château vous permettra de rentrer à Amkethran.~
+@23 = ~Il faut sortir d'ici !~
+
+/* Journal intime de Daemon */
+@1001 = ~Journal intime de Daemon, première partie~
+@1002 = ~Hier, j'ai rêvé de notre ancienne maison. Le clair de lune au-dessus du ruisseau, les cannes à pêche dans un coin, et toutes ces bêtises romantiques. Leur souvenir me fait mal, pourtant. Beaucoup plus que je ne l'imaginais.
+
+Ma mère, une prêtresse de Bhaal. Mon père, un fermier couard qui nous a abandonnés lorsqu'il a appris qui était vraiment son épouse. Et moi. La personne que j'allais devenir.
+
+Un moins-que-rien, apparemment. C'est bien ce que tu es, Daemon ? Oh bien sûr tu es un mercenaire qui a réussi, tu es un assassin expert et tu es très apprécié par le Prince des Mensonges en personne - tant que tu continues de tuer des gens en son nom. Mais as-tu une quelconque importance ?
+
+<CHARNAME>, par contre, a énormément d'importance. A peine à l'âge tendre, <PRO_HESHE> a causé la mort de notre mère, un massacre, et a indirectement empêché la résurrection de Bhaal. Impressionnant pour un bébé, n'est-ce pas ? Je n'ai été qu'un dommage collatéral, un gamin de dix ans avec une côte cassée, oublié dans les bois.
+
+Si seulement <PRO_HESHE> avait pu périr cette nuit-là. Si seulement ma mère avait pu accomplir le sacrifice, comme elle en avait l'intention. Elle serait encore en vie, le Seigneur du Meurtre règnerait sur les Abysses et j'aurais un foyer. Un mot si simple, foyer. Comme cela me manque.
+
+Au lieu de cela, mon enfant de Bhaal de <PRO_BROTHERSISTER> est enfermé à Château-Suif au milieu de livres et de parchemins... je serais prêt à couper mon bras gauche pour avoir la chance de les lire. Et moi je survis avec des miettes, alors que <PRO_HESHE> profite de la générosité de son père adoptif. Oh, il se montrera bienveillant... jusqu'au moment où l'héritage de Bhaal se manifestera.
+
+Parce qu'il se manifestera. Et lorsque cela se produira, quand <CHARNAME> quittera la sécurité des murs du château, je l'attendrai.~
+@1003 = ~Journal intime de Daemon, deuxième partie~
+@1004 = ~J'étais en route vers la Porte de Baldur lorsqu'on m'a informé à son sujet. Pupille de Gorion. Vainqueur de Sarevok. <PRO_HESHE> a sauvé les grands ducs et a empêché une guerre avec l'Amn.
+
+<CHARNAME>. Gorion. Ceux qui ont fait de moi un orphelin. Ceux dont je souhaite la mort depuis si longtemps.
+
+Je me suis précipité à la ville dès que j'ai été au courant, mais l'oiseau s'était déjà envolé. Disparu dans d'étranges et sombres circonstances, m'a-t-on dit ; peut-être kidnappé. Quelqu'un est-il au courant de son ascendance ? Qui cela pourrait-il être ? Un autre enfant de Bhaal ? Un mage dément, prêt à tout pour tenter des expériences sur un être divin comme <CHARNAME> ?
+
+Personne ne le sait. Mais j'ai au moins appris que le vieux ménestrel était mort, tué par Sarevok à proximité de Château-Suif. Il n'a ni tombe, ni lieu de sépulture, rien - juste un cadavre qui a nourri les loups. Une fin tout à fait appropriée.
+
+Ce qui me rappelle que je n'ai pas été me recueillir sur la tombe de ma mère depuis plus d'un an. Je sais que je devrais y aller, mais chaque fois que je pénètre dans cette clairière sa mort revient à ma mémoire. Encore et encore.
+
+Mère. Alianna. A genoux ; ce couteau dans les mains de Gorion, cette douleur dans ma poitrine. Et mes propres doigts qui commencent à trembler, et je ne peux, je ne peux pas...
+
+(A cet endroit-là le papier est violemment déchiré, et les lignes suivantes deviennent illisibles)~
+@1005 = ~Journal intime de Daemon, troisième partie~
+@1006 = ~Depuis que j'ai appris que <CHARNAME> a quitté Château-Suif, je suis à sa recherche. Mais <PRO_HESHE> se montre particulièrement insaisissable et tenace.
+
+Eh bien <CHARNAME> n'a pas chômé en deux ans. <PRO_HESHE> a sauvé le château de Arnise des trolls, a envahi une cité drow. J'ai même entendu dire qu'<PRO_HESHE> a perdu et retrouvé son âme.
+
+Une part de moi écoute les récits de ses exploits et pense qu'<PRO_HESHE> pourrait être une personne amie, pour qui j'aurais de l'admiration. Une personne de valeur, avec qui je pourrais boire toute la nuit et forger des liens d'amitié durable. Une personne incroyable, originale et attentionnée. Quelqu'un qui me ressemble.
+
+Et puis je me souviens que nous sommes en train de parler de <CHARNAME>. Une personne qui ne sait même pas que j'existe, mais qui a pourtant réussi à ruiner complètement ma vie. Celle qui a provoqué la mort de ma mère.
+
+Est-il bien nécessaire que je cherche les bons côtés de <CHARNAME> ? Que la haine m'envahisse !~
+@1007 = ~Journal intime de Daemon, quatrième partie~
+@1008 = ~Tout est prêt. Qui aurait cru qu'une simple amulette d'invocation pouvait engendrer autant de chaos ? Bien sûr je ne dois pas dire haut et fort que le Prince des Mensonges m'apporte son aide, ou que ce sont ses prêtres qui m'ont aidé à acquérir cette amulette et par conséquent ont permis que je convoque cette horde de démons à l'assaut du château de Arnise, oh, non. Mais je pense que nous savons tous deux qu'attirer <CHARNAME> dans un piège est également dans l'intérêt de Cyric. Après tout ils sont rivaux, n'est-ce pas ? La sphère d'influence de Bhaal est une sacrée récompense, et elle ne peut avoir qu'un seul maître.
+
+Je ne suis peut-être pas le plus dévoué des adorateurs de Cyric, mais je vous jure que ce soir on va bien s'amuser. Moi et mon armée de démons, <CHARNAME> et son... mais... quelle armée au fait ? Ah mais oui, <PRO_HESHE> n'en a pas. Oups.
+
+Mes hommes ont chassé tous les employés du château ; on m'a dit qu'aucun d'eux n'était mort, tout comme je l'avais ordonné. Bien. Pour une raison quelconque le majordome a décidé de rester – bizarrement il se sent à l'aise parmi mes démons. Qu'il reste ; la seule chose qui compte est que j'aie ma revanche.
+
+Et maintenant je vais attendre et surveiller. <CHARNAME> viendra, j'en suis certain.~
+@1009 = ~Journal intime de Daemon, cinquième partie~
+@1010 = ~Malédiction ! J'ai perdu le contrôle de l'amulette ! Bien sûr on ressent une certaine satisfaction lorsqu'après une mauvaise manipulation accidentelle une succube nue vous tombe dans les bras, mais la situation devient beaucoup moins agréable lorsque cette fichue créature tente de vous arracher la tête et que votre lame se trouve quelques centimètres hors de votre portée. Ouf ! j'ai survécu en m'échappant ici, mais tout est loin d'être terminé.
+
+Regarde où tes petits jeux t'ont mené, Daemon : assis dans des latrines craquelées et en train de te cacher d'une succube et de deux alu-démons qui n'en font qu'à leur guise. C'est terriblement rusé, pour sûr, mais je dois filer d'ici avant que <CHARNAME> n'arrive, et cela risque d'être compliqué avec une horreur vampirique qui m'attend derrière la porte et mes armes abandonnées de l'autre côté. M'échapper par le trou d'évacuation n'est évidemment PAS une option.
+
+Bah ! j'ai encore un petit couteau et une cape, et je suis encore plus dangereux lorsque je suis acculé. Les horreurs vampiriques sont-elles immatérielles, ou pas ? Il est temps de le savoir !~
+
+/* JOURNAL ENTRIES */
+
+@10000 = ~Réunion
+
+Nalia a pris contact avec moi, avec des nouvelles inquiétantes : son château est en péril ! Je peux utiliser sa pierre de téléportation pour m'y rendre, et retourner à Amkethran.~
+@10001 = ~Réunion
+
+Au portail, un homme blessé m'a dit que le château a été envahi par des démons, convoqués par un jeune homme vêtu de noir qui semble me détester énormément. Je me demande bien pourquoi.~
+@10002 = ~Réunion
+
+J'ai combattu l'homme responsable de l'attaque et je l'ai vaincu, mais il est parvenu à s'échapper. Ce Daemon veut vraiment ma peau, mais pourquoi ? Peut-être s'est-il enfui dans les étages.~
+@10003 = ~Réunion
+
+J'ai rencontré le fantôme de ma mère ! Enfin, à ce qu'il m'a semblé. Je dois continuer à explorer le château pour la trouver, elle a des réponses à m'apporter.~
+@10004 = ~Réunion
+
+J'ai de nouveau rencontré le fantôme d'Alianna. Elle m'a conté l'histoire de sa vie et m'a demandé d'épargner Daemon, si possible. Son voeu était que mon frère invocateur de démons et moi fassions la paix. Paix ou non, il ne peut pas être loin.~
+@10005 = ~Réunion
+
+J'ai fait face à mon frère, Daemon. Il était furieux que j'ai rencontré le fantôme d'Alianna, et pas lui ; En désespoir de cause il est parti à sa recherche au sous-sol, là où le père de Nalia est mort. Peut-être devrais-je le suivre.~
+@10006 = ~Réunion
+
+Mon frère, Daemon, est mort, et son armée de démons a été vaincue. Le fantôme d'Alianna en a été très attristé, mais j'ai au moins eu l'opportunité d'obtenir quelques réponses de sa part. Maintenant que le château a été libéré, je peux rentrer à Amkethran.~
+@10007 = ~Réunion
+
+J'ai décidé de ne pas tuer mon frère. Je n'en ai malheureusement pas terminé avec mes ennuis : les démons ayant échappé à son contrôle, je dois me diriger vers le hall principal pour les détruire.~
+@10008 = ~Réunion
+
+Tous les démons du hall principal sont morts maintenant. Daemon et moi avons décidé de ne pas nous entre-tuer, au moins pour quelques temps. Peut-être nous rencontrerons-nous à nouveau après que toute cette histoire soit terminée, pour nous connaître un peu mieux. J'ai aussi dit au revoir à ma mère, Alianna, et j'en ai profité pour obtenir quelques réponses à mes questions. Et bien sûr le château de Nalia a été libéré, je peux donc rentrer à Amkethran.~
+@10009 = ~Un petit garçon
+
+Le capitaine Arat a perdu son fils sur les remparts du château. Il m'a demandé de le retrouver.~
+@10010 = ~Un petit garçon
+
+J'ai trouvé un petit garçon sur les murs du château. Il m'a également dit avoir vu un fantôme... Je devrais me diriger vers la palissade ouest du château, pour vérifier que le gamin va bien.~
+@10011 = ~Un petit garçon
+
+Fort heureusement le fils du capitaine Arat est maintenant en sécurité, et j'ai obtenu ma récompense.~
+@10012 = ~Chanelle la servante
+
+Jessup, un ancien rôdeur devenu l'ivrogne du coin, m'a demandé de l'aide. Son ex-fiancée, Chanelle, se trouve actuellement au château, toute seule et perdue, et Jessup veut que je la mette en sécurité.~
+@10013 = ~Chanelle la servante
+
+J'ai trouvé Chanelle dans l'une des chambres du premier étage. Cette pauvre fille était terrorisée et s'est enfuie dès que j'ai tenté de lui parler.~
+@10014 = ~Chanelle la servante
+
+Jessup m'a indiqué que Chanelle était saine et sauve, en compagnie de sa tante ; il m'a donné un carquois magique en récompense.~
+@10015 = ~Wes, le père de Lanie
+
+J'ai rencontré une femme qui cherchait Wes, le père de son enfant. Il se trouve certainement à proximité du château, peut-être dans la cour.~ 
+@10016 = ~Wes, le père de Lanie
+
+J'ai trouvé Wes et lui ai dit que Miranda s'inquiétait pour lui. Il est immédiatement parti à sa recherche, je vérifierai plus tard s'ils se sont trouvés.~
+@10017 = ~Wes, le père de Lanie
+
+J'ai assisté à la réunion de la petite famille et j'ai obtenu une paire de bracelets. Une affaire rondement menée, en fait.~
+@10018 = ~La proposition de Gheed
+
+Un marchand ambulant, Gheed, m'a demandé de trouver une statuette de Lathandre dans le château. Je compte partir à sa recherche, même si l'attitude de ce marchand me déplaît. Peut-être devrais-je laisser tomber cette histoire.~
+@10019 = ~La proposition de Gheed
+
+J'ai trouvé la statuette dans la salle au trésor mais une fois de retour, Gheed a pris la statuette, a refusé de me payer et s'est téléporté. Une expérience plutôt originale, en fait.~
+
+
+// WeiDU prompts
+@-1000= "Le mod %TP2_FILE_NAME% contient"
+@-1001= "composants optionnels distincts.
+Pour gagner du temps, vous pouvez choisir ce que vous souhaitez faire d'eux
+au niveau general plutot que de repondre aux questions pour chacun.
+"
+@-1002= "Que faut-il faire de tous les composants qui NE sont PAS ENCORE installes ?
+Les [I]nstaller, les [S]auter, dem[A]nder pour chacun ? "
+@-1003= "Que faut-il faire de tous les composants qui sont DEJA installes ?
+Les [R]einstaller, les s[U]pprimer, les [S]auter, dem[A]nder pour chacun ? "
+
+@-1004= "S'IL VOUS PLAIT, envoyez par e-mail le fichier"
+@-1005= "a"
+
+@-1006= "Installer le composant ["
+@-1007= "] ?
+[R]einstaller, co[N]server, s[U]pprimer ou [Q]uitter ? "
+@-1008= "] ?
+[I]nstaller, [N]e pas installer ou [Q]uitter ? "
+
+@-1009= "Entrez une partie du nom du module : "
+
+@-1010= "Reinstallation du composant ["
+@-1011= "] "
+@-1012= "Reinstallation dans la langue"
+
+@-1013= "Suppression de l'ancienne installation de ["
+@-1014= "] au prealable..."
+@-1015= "SUPPRESSION REUSSIE DE L'ANCIEN"
+
+@-1016= "Installation en cours"
+@-1017= "ERREUR pendant l'installation de ["
+@-1018= "], retour a l'etat anterieur"
+@-1019= "INSTALLATION REUSSIE"
+@-1020= "Saute"
+@-1021= "Suppression de ["
+@-1022= "] (composant #"
+@-1023= ")"
+@-1024= "SUPPRESSION REUSSIE DE ["
+
+@-1025= "] ?
+[R]einstaller, co[N]server, s[U]pprimer, [Q]uitter ou choisir un parmi :"
+@-1026= "] ?
+[N]e pas installer, [Q]uitter ou choisir un parmi :"
+@-1027= " (installe actuellement)"
+
+@-1028= "Souhaitez-vous afficher les composants de ["
+@-1029= "] ?
+[Y]Oui, [N]on ? "
+
+@-1030= "] ?
+choisir un parmi :"
+@-1031= "] ?
+[R]einstaller, co[N]server, [Q]uitter ou choisir un parmi :"
+@-1032= "INSTALLATION ECHOUEE A CAUSE D'ERREURS"
+@-1033= "INSTALLATION AVEC DES ALERTES"
+@-1034= "Souhaitez-vous afficher les instructions (ReadMe) ? [Y]Oui [N]on"
+@-1035= "Dans la langue"
+
+@-1036= "Saute le GROUPE ["
+@-1037= "] pour cause d'absence des pre-requis."
+
+@-1038= "dem[A]nder pour chaque composant, tout [S]auter, ou choisir une selection pre-definie :"
+@-1039= "dem[A]nder pour chaque composant, [R]einstaller la configuration courante, tout s[U]pprimer, tout [S]auter, ou choisir une selection pre-definie :"
+
+@-1040= "
+Veuillez choisir la langue dans laquelle vous souhaitez jouer au jeu.
+Si par la suite vous desirez jouer au jeu dans une langue differente, il vous
+faudra editer le fichier weidu.conf et reinstaller vos mods.
+"
+@-1041= "Tcheque"
+@-1042= "Allemand"
+@-1043= "Anglais"
+@-1044= "Espagnol"
+@-1045= "Francais"
+@-1046= "Italien"
+@-1047= "Polonais"
+@-1048= "Portugais"
+@-1049= "Turc"
+@-1050= "Japonais"
+@-1051= "Coreen"
+@-1052= "Chinois simplifie"
+@-1053= "Russe"
+@-1054= "Ukrainien"
+
+@-1060= "
+Ce jeu est disponible en plusieurs langues mais WeiDU ne sait pas laquelle a ete choisie quand ce mod a ete installe.
+
+Veuillez indiquer quelle langue du jeu a ete utilisee quand vous avez installe ce mod. Votre choix servira jusqu'a ce que WeiDU s'arrete mais ne sera pas memorise.
+"
+@-1061= "
+Utilisation de"
+@-1062= " et "

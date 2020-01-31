@@ -1,0 +1,27 @@
+// Castle, first floor
+IF
+Global("O#DAEAreaFirst","GLOBAL",0)
+THEN
+RESPONSE #100
+Explore()
+CreateCreature("O#DAECHA",[515.571],0)
+CreateCreature("O#DAEMAJ",[1166.958],0)
+GiveItemCreate("O#DAEN4","O#DAEMAJ",1,0,0)
+CreateCreature("DEMCOR01",[1127.1040],0)
+CreateCreature("DEMCOR01",[1286.908],0)
+CreateCreature("DEMCOR01",[1039.846],0)
+CreateCreature("TELALU1",[1886.740],0)
+CreateCreature("TELALU1",[1896.753],0)
+CreateCreature("hgmis01",[1287.314],0)
+CreateCreature("GOLBUR01",[862.1365],0)
+CreateCreature("GOLBUR01",[959.1380],0)
+SetGlobal("O#DAEAreaFirst","GLOBAL",1)
+END
+
+IF
+Global("O#DaemonTalk1","GLOBAL",0)
+THEN
+RESPONSE #100
+CreateCreature("O#DAEMON",[2367.1101],5)
+SetGlobal("O#DaemonTalk1","GLOBAL",2)
+END

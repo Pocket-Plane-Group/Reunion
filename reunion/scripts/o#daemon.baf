@@ -1,0 +1,23 @@
+IF
+OR(5)
+Global("O#DaemonTalk1","GLOBAL",2)
+Global("O#DaemonTalk1","GLOBAL",5)
+Global("O#DaemonTalk2","GLOBAL",2)
+Global("O#DaemonTalk3","GLOBAL",2)
+Global("O#DaemonTalk4","GLOBAL",2)
+See([PC])
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+StartDialogueNoSet(Player1)
+END
+
+IF
+HPLT(Myself,15)
+Global("O#DaemonTalk1","GLOBAL",3)
+THEN
+RESPONSE #100
+SetGlobal("O#DaemonTalk1","GLOBAL",5)
+END

@@ -1,0 +1,26 @@
+IF
+Global("O#DAEHelpfulDyingGuy","GLOBAL",0)
+See([PC])
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+SetGlobal("O#DAEHelpfulDyingGuy","GLOBAL",1)
+ActionOverride(Myself,DisplayStringHead(Myself,@23))
+Wait(2)
+END
+
+IF
+Global("O#DAEHelpfulDyingGuy","GLOBAL",1)
+See([PC])
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+SetGlobal("O#DAEHelpfulDyingGuy","GLOBAL",3)
+StartDialogueNoSet(Player1)
+END
+
+

@@ -1,0 +1,13 @@
+IF
+Global("O#DAEMajordomo1","GLOBAL",0)
+See([PC])
+InMyArea(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID) 
+!StateCheck(Myself,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+SetGlobal("O#DAEMajordomo1","GLOBAL",1)
+StartDialogueNoSet(Player1)
+END
+
+

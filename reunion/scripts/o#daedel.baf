@@ -1,0 +1,21 @@
+IF
+Detect([PC])
+Global("O#DAEDelciaTalks","GLOBAL",0)
+!Allegiance(Myself,ENEMY)
+THEN
+RESPONSE #100
+DialogInterrupt(FALSE)
+DisplayStringHead(Myself,@2)
+Wait(2)
+DisplayStringHead(Myself,@3)
+Wait(2)
+DisplayStringHead(Myself,@4)
+Wait(2)
+ActionOverride("O#DaeMai",DisplayStringHead(Myself,@5))
+Wait(2)
+ActionOverride("O#DaeMai",DestroySelf())
+Wait(2)
+DialogInterrupt(TRUE)
+SetGlobal("O#DAEDelciaTalks","GLOBAL",1)
+DestroySelf()
+END

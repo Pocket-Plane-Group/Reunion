@@ -1,0 +1,354 @@
+BACKUP ~Reunion/Backup~
+AUTHOR ~http://forums.pocketplane.net~
+VERSION ~v6~
+
+README ~Reunion/Readme-Reunion-%LANGUAGE%.txt~ ~Reunion/Readme-Reunion.txt~
+
+ALWAYS
+  ACTION_IF NOT VARIABLE_IS_SET bg2_chapter BEGIN
+    ACTION_IF GAME_IS ~eet~ BEGIN
+      OUTER_SET bg2_chapter = 12
+    END ELSE BEGIN
+      OUTER_SET bg2_chapter = 0
+    END
+    OUTER_FOR (i=1; i<=10; i=i+1) BEGIN
+      OUTER_SET bg2_chapter = bg2_chapter + 1
+      OUTER_SPRINT name_source ~bg2_chapter_%i%~
+      OUTER_SET EVAL ~%name_source%~ = bg2_chapter
+    END
+  END
+
+  // Borrowed from Edwin Romance: convert strings to UTF-8 for BG2EE
+
+  // Setup-Reunion.tra contains in game texts as well as installation texts
+  // and need to be converted then reloaded
+  ACTION_DEFINE_ARRAY O#noconvert BEGIN END
+  ACTION_DEFINE_ARRAY O#reload BEGIN Setup-Reunion END
+
+  LAF HANDLE_CHARSETS
+    INT_VAR
+      infer_charsets = 1
+    STR_VAR
+      tra_path = EVAL ~%MOD_FOLDER%~ // Language directories and iconv directory directly in the mod folder
+      // charset_table = O#charsets // Use HANDLE_CHARSETS built-in rule for charset choice
+      noconvert_array = O#noconvert
+      reload_array = O#reload
+  END
+END
+
+AUTO_TRA ~Reunion/%s~  //%
+
+LANGUAGE ~English~ ~English~ ~Reunion/English/Setup-Reunion.tra~
+LANGUAGE ~Francais (traduit par Le Marquis des d'Oghmatiques)~ ~French~ ~Reunion/French/Setup-Reunion.tra~
+LANGUAGE ~Chinese (translation by Merzbau)~ ~Schinese~ ~Reunion/Schinese/Setup-Reunion.tra~
+LANGUAGE ~Russian (translation by Austin)~ ~Russian~ ~Reunion/Russian/Setup-Reunion.tra~
+
+BEGIN @0
+
+REQUIRE_PREDICATE GAME_INCLUDES ~tob~ @1
+
+// Areas
+
+COPY ~Reunion/Areas~ ~override~
+
+ACTION_IF GAME_IS ~BG2EE eet~ BEGIN
+ADD_JOURNAL @10000 @10001 @10002 @10003 @10004 @10005 @10006 @10007 @10008 @10009 @10010 @10011 @10012 @10013 @10014 @10015 @10016 @10017 @10018 @10019
+END
+
+// CamDawg's custom state
+APPEND ~STATE.IDS~ ~0x80101FEF CD_STATE_NOTVALID~
+UNLESS ~CD_STATE_NOTVALID~
+
+// Dialogue and scripts
+
+COMPILE ~Reunion/Dialogue/Reunion.d~
+
+	~Reunion/Scripts/O#DAEMON.baf~ 
+        ~Reunion/Scripts/O#DAEALI.baf~ 
+	~Reunion/Scripts/O#DAEFIG.baf~ 
+	~Reunion/Scripts/O#DAEGUY.baf~ 
+	~Reunion/Scripts/O#DAEMAJ.baf~ 
+	~Reunion/Scripts/O#DAEDEL.baf~ 
+
+        ~Reunion/Scripts/O#DAE0.baf~ // Outside
+        ~Reunion/Scripts/O#DAE1.baf~ // First level
+        ~Reunion/Scripts/O#DAE2.baf~ // Second level
+        ~Reunion/Scripts/O#DAE3.baf~ // Basement
+
+	~Reunion/Scripts/O#DECut1.baf~ // Going to the castle
+	~Reunion/Scripts/O#DECut2.baf~ // Going home
+	~Reunion/Scripts/O#DECut3.baf~ // Dreaming of Gorion - begin dream
+	~Reunion/Scripts/O#DECut4.baf~ // Dreaming of Gorion - end dream
+	~Reunion/Scripts/O#DECut5.baf~ // Wes goes to Miranda and Lanie
+
+	~Reunion/Scripts/O#DAET1.baf~   // teleport to the castle
+	~Reunion/Scripts/O#DAET2.baf~   // teleport back to Amkethran
+
+EXTEND_TOP ~Player1d.bcs~ ~Reunion/Scripts/Player1d.baf~
+EXTEND_TOP ~Nali25.bcs~ ~Reunion/Scripts/Nali25.baf~ EVALUATE_BUFFER
+
+// Characters
+
+COPY_EXISTING ~KPCAPT01.cre~ ~override/O#DAECAP.cre~
+WRITE_ASCII 0x248 ~O#DAECAP~ #8   // override
+WRITE_ASCII 0x2cc ~O#DAECAP~ #8   // dialogue
+WRITE_ASCII 0x280 ~O#DAECAP~ #32  // death variable
+WRITE_ASCII 0x250 ~~ 	     #8   // class script
+WRITE_ASCII 0x258 ~~ 	     #8   // race script
+WRITE_ASCII 0x260 ~~ 	     #8   // general script
+WRITE_ASCII 0x268 ~O#DAEFIG~ #8   // default script
+SAY NAME1 @6
+SAY NAME2 @6
+
+COPY_EXISTING ~URCHIN1.cre~ ~override/O#DAEBOY.cre~
+WRITE_ASCII 0x248 ~O#DAEBOY~ #8   // override
+WRITE_ASCII 0x2cc ~O#DAEBOY~ #8   // dialogue
+WRITE_ASCII 0x280 ~O#DAEBOy~ #32  // death variable
+WRITE_ASCII 0x250 ~~ 	     #8   // class script
+WRITE_ASCII 0x258 ~~ 	     #8   // race script
+WRITE_ASCII 0x260 ~~ 	     #8   // general script
+SAY NAME1 @7
+SAY NAME2 @7
+
+COPY_EXISTING ~KPRANG01.cre~ ~override/O#DAEJES.cre~
+WRITE_ASCII 0x248 ~O#DAEJES~ #8   // override
+WRITE_ASCII 0x2cc ~O#DAEJES~ #8   // dialogue
+WRITE_ASCII 0x280 ~O#DAEJES~ #32  // death variable
+WRITE_ASCII 0x250 ~~ 	     #8   // class script
+WRITE_ASCII 0x258 ~~ 	     #8   // race script
+WRITE_ASCII 0x260 ~~ 	     #8   // general script
+WRITE_ASCII 0x268 ~O#DAEFIG~ #8   // default script
+SAY NAME1 @8
+SAY NAME2 @8
+
+COPY_EXISTING ~KPMAID01.cre~ ~override/O#DAECHA.cre~
+WRITE_ASCII 0x248 ~O#DAECHA~ #8   // override
+WRITE_ASCII 0x2cc ~O#DAECHA~ #8   // dialogue
+WRITE_ASCII 0x280 ~O#DAECHA~ #32  // death variable
+WRITE_ASCII 0x250 ~~ 	     #8   // class script
+WRITE_ASCII 0x258 ~~ 	     #8   // race script
+WRITE_ASCII 0x260 ~~ 	     #8   // general script
+SAY NAME1 @9
+SAY NAME2 @9
+
+COPY_EXISTING ~CLKID.cre~ ~override/O#DAEKID.cre~
+WRITE_ASCII 0x248 ~O#DAEKID~ #8   // override
+WRITE_ASCII 0x2cc ~O#DAEKID~ #8   // dialogue
+WRITE_ASCII 0x280 ~O#DAEKID~ #32  // death variable
+WRITE_ASCII 0x250 ~~ 	     #8   // class script
+WRITE_ASCII 0x258 ~~ 	     #8   // race script
+WRITE_ASCII 0x260 ~~ 	     #8   // general script
+SAY NAME1 @10
+SAY NAME2 @10
+
+COPY_EXISTING ~CLMOM.cre~ ~override/O#DAEMOM.cre~
+WRITE_ASCII 0x248 ~O#DAEMOM~ #8   // override
+WRITE_ASCII 0x2cc ~O#DAEMOM~ #8   // dialogue
+WRITE_ASCII 0x280 ~O#DAEMOM~ #32  // death variable
+WRITE_ASCII 0x250 ~~ 	     #8   // class script
+WRITE_ASCII 0x258 ~~ 	     #8   // race script
+WRITE_ASCII 0x260 ~~ 	     #8   // general script
+SAY NAME1 @11
+SAY NAME2 @11
+
+COPY_EXISTING ~HMELVIN.cre~ ~override/O#DAEDAD.cre~
+WRITE_ASCII 0x248 ~O#DAEDAD~ #8   // override
+WRITE_ASCII 0x2cc ~O#DAEDAD~ #8   // dialogue
+WRITE_ASCII 0x280 ~O#DAEDAD~ #32  // death variable
+WRITE_ASCII 0x250 ~~ 	     #8   // class script
+WRITE_ASCII 0x258 ~~ 	     #8   // race script
+WRITE_ASCII 0x260 ~~ 	     #8   // general script
+SAY NAME1 @12
+SAY NAME2 @12
+
+COPY_EXISTING ~SHOP3.cre~ ~override/O#DAEGHE.cre~
+WRITE_ASCII 0x248 ~O#DAEGHE~ #8   // override
+WRITE_ASCII 0x2cc ~O#DAEGHE~ #8   // dialogue
+WRITE_ASCII 0x280 ~O#DAEGHE~ #32  // death variable
+WRITE_ASCII 0x250 ~~ 	     #8   // class script
+WRITE_ASCII 0x258 ~~ 	     #8   // race script
+WRITE_ASCII 0x260 ~~ 	     #8   // general script
+SAY NAME1 @13
+SAY NAME2 @13
+
+COPY ~Reunion/Characters/O#Daemon.cre~ ~override/O#DAEMON.cre~ // trainer1
+WRITE_ASCII 0x248 ~O#DAEMON~ #8   // override
+WRITE_ASCII 0x2cc ~O#DAEMON~ #8   // dialogue
+WRITE_ASCII 0x280 ~O#DAEMON~ #32  // death variable
+WRITE_ASCII 0x250 ~~ 	     #8   // class script
+WRITE_ASCII 0x258 ~~ 	     #8   // race script
+// WRITE_ASCII 0x260 ~~ 	     #8   // general script
+WRITE_BYTE 0x2c 30		  // Metal color
+WRITE_BYTE 0x2d 65 		  // Minor color
+WRITE_BYTE 0x2e 66 		  // Major color
+WRITE_BYTE 0x2f 12		  // Skin color
+WRITE_BYTE 0x30 21 		  // Leather color
+WRITE_BYTE 0x31 27 		  // Armor color
+WRITE_BYTE 0x32 66		  // Hair color
+SAY NAME1 @14
+SAY NAME2 @14
+
+COPY_EXISTING ~D1MOTHHU.cre~ ~override/O#DAEAHU.cre~
+WRITE_ASCII 0x248 ~O#DAEALI~ #8   // override
+WRITE_ASCII 0x2cc ~O#DAEALI~ #8   // dialogue
+WRITE_ASCII 0x280 ~O#DAEALI~ #32  // death variable
+WRITE_ASCII 0x250 ~~ 	     #8   // class script
+WRITE_ASCII 0x258 ~~ 	     #8   // race script
+WRITE_ASCII 0x260 ~~ 	     #8   // general script
+WRITE_BYTE 0x2d 91 		  // Minor color
+WRITE_BYTE 0x2e 92 		  // Major color
+SAY NAME1 @15
+SAY NAME2 @15
+
+COPY_EXISTING ~D1MOTHDW.cre~ ~override/O#DAEADW.cre~
+WRITE_ASCII 0x248 ~O#DAEALI~ #8   // override
+WRITE_ASCII 0x2cc ~O#DAEALI~ #8   // dialogue
+WRITE_ASCII 0x280 ~O#DAEALI~ #32  // death variable
+WRITE_ASCII 0x250 ~~ 	     #8   // class script
+WRITE_ASCII 0x258 ~~ 	     #8   // race script
+WRITE_ASCII 0x260 ~~ 	     #8   // general script
+WRITE_BYTE 0x2d 91 		  // Minor color
+WRITE_BYTE 0x2e 92 		  // Major color
+SAY NAME1 @15
+SAY NAME2 @15
+
+COPY_EXISTING ~D1MOTHEL.cre~ ~override/O#DAEAEL.cre~
+WRITE_ASCII 0x248 ~O#DAEALI~ #8   // override
+WRITE_ASCII 0x2cc ~O#DAEALI~ #8   // dialogue
+WRITE_ASCII 0x280 ~O#DAEALI~ #32  // death variable
+WRITE_ASCII 0x250 ~~ 	     #8   // class script
+WRITE_ASCII 0x258 ~~ 	     #8   // race script
+WRITE_ASCII 0x260 ~~ 	     #8   // general script
+WRITE_BYTE 0x2d 91 		  // Minor color
+WRITE_BYTE 0x2e 92 		  // Major color
+SAY NAME1 @15
+SAY NAME2 @15
+
+COPY_EXISTING ~D1MOTHHA.cre~ ~override/O#DAEAHA.cre~
+WRITE_ASCII 0x248 ~O#DAEALI~ #8   // override
+WRITE_ASCII 0x2cc ~O#DAEALI~ #8   // dialogue
+WRITE_ASCII 0x280 ~O#DAEALI~ #32  // death variable
+WRITE_ASCII 0x250 ~~ 	     #8   // class script
+WRITE_ASCII 0x258 ~~ 	     #8   // race script
+WRITE_ASCII 0x260 ~~ 	     #8   // general script
+WRITE_BYTE 0x2d 91 		  // Minor color
+WRITE_BYTE 0x2e 92 		  // Major color
+SAY NAME1 @15
+SAY NAME2 @15
+
+COPY_EXISTING ~D1GORI.cre~ ~override/O#DAEGOR.cre~
+WRITE_ASCII 0x248 ~O#DAEGOR~ #8   // override
+WRITE_ASCII 0x2cc ~O#DAEGOR~ #8   // dialogue
+WRITE_ASCII 0x280 ~O#DAEGOR~ #32  // death variable
+WRITE_ASCII 0x250 ~~ 	     #8   // class script
+WRITE_ASCII 0x258 ~~ 	     #8   // race script
+WRITE_ASCII 0x260 ~~ 	     #8   // general script
+SAY NAME1 @16
+SAY NAME2 @16
+
+COPY_EXISTING ~HLSTAL.cre~ ~override/O#DAEGUY.cre~
+WRITE_ASCII 0x248 ~O#DAEGUY~ #8   // override
+WRITE_ASCII 0x2cc ~O#DAEGUY~ #8   // dialogue
+WRITE_ASCII 0x280 ~O#DAEGUY~ #32  // death variable
+WRITE_ASCII 0x250 ~~ 	     #8   // class script
+WRITE_ASCII 0x258 ~~ 	     #8   // race script
+WRITE_ASCII 0x260 ~~ 	     #8   // general script
+WRITE_ASCII 0x268 ~O#DAEFIG~ #8   // default script
+WRITE_BYTE 0x0270 128		  // Neutral
+SAY NAME1 @17
+SAY NAME2 @17
+
+COPY_EXISTING ~DEATHKNI.cre~ ~override/O#DAEMAJ.cre~ // KPDOMO01
+WRITE_ASCII 0x248 ~O#DAEMAJ~ #8   // override
+WRITE_ASCII 0x2cc ~O#DAEMAJ~ #8   // dialogue
+WRITE_ASCII 0x280 ~O#DAEMAJ~ #32  // death variable
+WRITE_ASCII 0x250 ~~ 	     #8   // class script
+WRITE_ASCII 0x258 ~~ 	     #8   // race script
+WRITE_ASCII 0x260 ~~ 	     #8   // general script
+SAY NAME1 @18
+SAY NAME2 @18
+
+COPY_EXISTING ~DELCIA.cre~ ~override/O#DAEDEL.cre~
+WRITE_ASCII 0x248 ~O#DAEDEL~ #8   // override
+WRITE_ASCII 0x2cc ~O#DAEDEL~ #8   // dialogue
+WRITE_ASCII 0x280 ~O#DAEDEL~ #32  // death variable
+WRITE_ASCII 0x250 ~~ 	     #8   // class script
+WRITE_ASCII 0x258 ~~ 	     #8   // race script
+WRITE_ASCII 0x260 ~~ 	     #8   // general script
+SAY NAME1 @19
+SAY NAME2 @19
+
+COPY_EXISTING ~KPMAID01.cre~ ~override/O#DAEMAI.cre~
+WRITE_ASCII 0x248 ~O#DAEMAI~ #8   // override
+WRITE_ASCII 0x2cc ~O#DAEMAI~ #8   // dialogue
+WRITE_ASCII 0x280 ~O#DAEMAI~ #32  // death variable
+WRITE_ASCII 0x250 ~~ 	     #8   // class script
+WRITE_ASCII 0x258 ~~ 	     #8   // race script
+WRITE_ASCII 0x260 ~~ 	     #8   // general script
+SAY NAME1 @20
+SAY NAME2 @20
+
+COPY_EXISTING ~DEMOSUM1.cre~ ~override/O#DAEMA1.cre~
+WRITE_ASCII 0x248 ~O#DAEMA1~ #8   // override
+WRITE_ASCII 0x2cc ~O#DAEMA1~ #8   // dialogue
+WRITE_ASCII 0x280 ~O#DAEMA1~ #32  // death variable
+WRITE_ASCII 0x250 ~~ 	     #8   // class script
+WRITE_ASCII 0x258 ~~ 	     #8   // race script
+WRITE_ASCII 0x260 ~~ 	     #8   // general script
+WRITE_ASCII 0x268 ~O#DAEFIG~ #8   // default script
+
+COPY_EXISTING ~DEMOSUM1.cre~ ~override/O#DAEMA2.cre~
+WRITE_ASCII 0x248 ~O#DAEMA2~ #8   // override
+WRITE_ASCII 0x2cc ~O#DAEMA2~ #8   // dialogue
+WRITE_ASCII 0x280 ~O#DAEMA2~ #32  // death variable
+WRITE_ASCII 0x250 ~~ 	     #8   // class script
+WRITE_ASCII 0x258 ~~ 	     #8   // race script
+WRITE_ASCII 0x260 ~~ 	     #8   // general script
+WRITE_ASCII 0x268 ~O#DAEFIG~ #8   // default script
+
+COPY_EXISTING ~DEMOSUM1.cre~ ~override/O#DAEMA3.cre~
+WRITE_ASCII 0x248 ~O#DAEMA3~ #8   // override
+WRITE_ASCII 0x2cc ~O#DAEMA3~ #8   // dialogue
+WRITE_ASCII 0x280 ~O#DAEMA3~ #32  // death variable
+WRITE_ASCII 0x250 ~~ 	     #8   // class script
+WRITE_ASCII 0x258 ~~ 	     #8   // race script
+WRITE_ASCII 0x260 ~~ 	     #8   // general script
+WRITE_ASCII 0x268 ~O#DAEFIG~ #8   // default script
+
+// Items
+
+COPY_EXISTING ~misc5y.itm~ ~override/O#DAEN1.itm~
+SAY NAME1 @1001
+SAY NAME2 @1001
+SAY DESC @1002
+
+COPY_EXISTING ~misc5y.itm~ ~override/O#DAEN2.itm~
+SAY NAME1 @1003
+SAY NAME2 @1003
+SAY DESC @1004
+
+COPY_EXISTING ~misc5y.itm~ ~override/O#DAEN3.itm~
+SAY NAME1 @1005
+SAY NAME2 @1005
+SAY DESC @1006
+
+COPY_EXISTING ~misc5y.itm~ ~override/O#DAEN4.itm~
+SAY NAME1 @1007
+SAY NAME2 @1007
+SAY DESC @1008
+
+COPY_EXISTING ~misc5y.itm~ ~override/O#DAEN5.itm~
+SAY NAME1 @1009
+SAY NAME2 @1009
+SAY DESC @1010
+
+COPY ~Reunion/Items/O#DAEGEM.itm~ ~override/O#DAEGEM.itm~
+SAY NAME1 @21
+SAY NAME2 @21
+SAY UNIDENTIFIED_DESC @22
+SAY DESC @22
+
+APPEND ~itemdial.2da~
+~O#DAEGEM    14117 O#DAEGEM~
+UNLESS ~O#DAEGEM~
+

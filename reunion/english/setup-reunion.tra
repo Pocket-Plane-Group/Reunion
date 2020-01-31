@@ -1,0 +1,141 @@
+@0 = ~The Reunion mod for Baldur's Gate II~
+@1 = ~You do not appear to have the Throne of Bhaal expansion pack installed. Throne of Bhaal is required for the Reunion mod.~
+@2 = ~I refuse to believe I'm a ghost! This is my castle!~
+@3 = ~It belonged to our family for generations!~
+@4 = ~You! You will find my unruly niece NOW, or get the switch!~
+@5 = ~Enough, I'm quitting!~
+@6 = ~Captain Arat~
+@7 = ~Little Boy~
+@8 = ~Jessup~
+@9 = ~Chanelle~
+@10 = ~Lanie~
+@11 = ~Miranda~
+@12 = ~Wes~
+@13 = ~Gheed~
+@14 = ~Daemon~
+@15 = ~Alianna~
+@16 = ~Gorion~
+@17 = ~Wounded Man~
+@18 = ~Evil Majordomo~
+@19 = ~Lady Delcia~
+@20 = ~Frightened Maid~
+@21 = ~Nalia's Teleportation Stone~
+@22 = ~This stone will allow you to teleport safely from any area to Nalia's castle, and from there - back to Amkethran.~
+@23 = ~Got to get out of here!~
+
+/* Daemon's Diary */
+@1001 = ~Daemon's diary, part I~
+@1002 = ~Yesterday I dreamt of our old home. Moonlight over the creek, fishing rods in the corner, and all that romantic nonsense. It still hurts to remember it, though. Much more than I thought it would.
+
+My mother, a priestess of Bhaal. My father, a cowardly farmer who abandoned us when he learned who his wife was. And me. Who I was going to be.
+
+A nobody, apparently. Aren't you, Daemon? Sure, you're a successful mercenary, a skilled assassin, and the Prince of Lies is looking at you favorably - as long as you keep killing in his name. But do you matter?
+
+My <PRO_BROTHERSISTER> <CHARNAME> certainly matters. At <PRO_HISHER> tender age, <PRO_HESHE> caused our mother's death, a massacre, and indirectly prevented Bhaal's resurrection. Impressive for a baby, isn't it? I was just collateral damage, a ten-year-old forgotten in the woods with a broken rib.
+
+If only <PRO_HESHE> died that night. If only <PRO_HESHE> was sacrificed as my mother intended. Then my mother would have been alive, the Lord of Murder would have ruled the Abyss, and I would have had a home. Such a simple word, home. How I miss it.
+
+Instead my Bhaalspawn <PRO_BROTHERSISTER> is locked away in Candlekeep amidst books and scrolls I'd give up my left arm to read, and I am surviving on scraps while <PRO_HESHE> enjoys <PRO_HISHER> foster father's generosity. Oh, he will be kind to <PRO_HIMHER>... until the time comes and Bhaal's heritage shows itself.
+
+Because it will. And once it does, and <CHARNAME> steps out of the safety of the keep's walls, I'll be waiting.~
+@1003 = ~Daemon's diary, part II~
+@1004 = ~I was on my way to Baldur's Gate when I learnt about <PRO_HIMHER>. Gorion's ward. Sarevok's vanquisher. The one who saved the Grand Dukes and prevented a war with Amn.
+
+<CHARNAME>. Gorion. The ones who left me without a family. The ones I've wanted dead for so long.
+
+I rushed to the city at once, but <PRO_HESHE> was already gone. Departed under dark, strange circumstances, I've been told: kidnapped, perhaps. Does someone else know about <PRO_HISHER> heritage? Who can it be? Another Bhaalspawn? Some mad mage, hungry for experiments on a divine champion like my <PRO_BROTHERSISTER>?
+
+Unknown. But at least I learned that the old Harper was dead, killed by Sarevok outside Candlekeep. No grave, no burial site, nothing - just a corpse for the wolves. A fitting end.
+
+Which reminds me. I haven't been to mother's gravesite for over a year. I should go, I know, but every time I visit the glade, I am reminded of her death. Again.
+
+Mother. Alianna. Her knees, bending, knife in Gorion's hands, pain in my chest. And then my own fingers start shaking, and I can't, I just can't...
+
+(the paper is violently torn here, and the next lines are illegible)~
+@1005 = ~Daemon's diary, part III~
+@1006 = ~Ever since I learnt that <CHARNAME> left Candlekeep, I've been searching for <PRO_HIMHER>. But my <PRO_BROTHERSISTER> is both elusive and resilient.
+
+Why, <PRO_HESHE>'s done much in two years. Saved de'Arnise castle from the trolls, invaded a drow city, even lost and found <PRO_HISHER> soul, I hear.
+
+A part of me is listening to <PRO_HISHER> exploits and thinking - there goes a friend I could admire. A <PRO_MANWOMAN> of worth, someone with whom I could drink the night away and forge a true bond, the one that lasts. Someone amazing, quirky and thoughtful. Someone like me.
+
+And then I remember that we are talking about my <PRO_BROTHERSISTER>. The one who doesn't even know I exist, yet ruined my life thoroughly regardless. The one who brought about my mother's death.
+
+Should I even bother looking for <CHARNAME>'s good side? Let the hatred fester.~
+@1007 = ~Daemon's diary, part IV~
+@1008 = ~Everything is ready. Who would've known that one summoning amulet could wreak that much chaos? Of course, I mustn't say aloud that the Prince of Lies is helping me, or that his priests helped me acquire that amulet and thus summon a demon horde to hold de'Arnise castle, oh, no. But I think we both know that luring my <PRO_BROTHERSISTER> into a trap is in Cyric's interest, as well. They are rivals, aren't they? Bhaal's realm of influence is quite a prize, and only one may hold it.
+
+I might not be the most devoted of Cyric's followers, but tonight, I swear, we are going to have fun. Me, my army of demons, <CHARNAME> and... whose army? Oh, that's right, <PRO_HESHE> doesn't have one. Whoops.
+
+My men sent all the castle folk away; I've been told that no one died in the process, just as I ordered. Good. Majordomo decided to stay for some reason – he feels comfortable among my demons, strangely enough. Let him; I hardly care about anything but my revenge.
+
+Now to watch, and wait. <CHARNAME> will come.~
+@1009 = ~Daemon's diary, part V~
+@1010 = ~Damn it! The amulet is out of control! Sure, it feels gratifying when you accidentally twist it in your hand and a naked succubus drops on your knees, but it's much less enticing when the damned creature tries to bite off your head, and the blades are just a few inches beyond your reach. Phew! I survived by escaping here, but it's hardly over.
+
+Look where your games led you, Daemon: sitting on a cracked loo and hiding from a succubus and two Alu-fiends that went rogue. Very crafty, sure, but I have to get out of here before my little <PRO_BROTHERSISTER> comes, and there's no easy way to do it with a vampiric horror breathing down the door and my weapons abandoned on the other side. Going down the drain is NOT an option, either.
+
+Bah! I still have a small knife and a cloak, and I'm even more dangerous when cornered. Are vampiric horrors corporeal or not? Time to find out!~
+
+/* JOURNAL ENTRIES */
+
+@10000 = ~Reunion.
+
+Nalia approached me with grave news: her castle is in danger! I can use her teleportation stone to get there - and back to Amkethran.~
+@10001 = ~Reunion.
+
+A wounded man at the gates told me that the castle was taken over by demons, summoned a young man dressed in black, who seems to hate me very much. I wonder why.~
+@10002 = ~Reunion.
+
+I fought the one responsible for the attack and defeated him, but he managed to escape. This Daemon really has it out for me, but why? Perhaps he fled upstairs.~
+@10003 = ~Reunion.
+
+I met my mother's ghost! Or it seems to be her. I should continue exploring the castle and find her - and answers.~
+@10004 = ~Reunion.
+
+I met Alianna's ghost again. She told me her life story, and asked me to spare Daemon, if I could. It was her wish for me and my demon-summoning brother to make peace. But peace or not, he cannot be far.~
+@10005 = ~Reunion.
+
+I confronted my brother, Daemon. He was very angry that I saw Alianna's ghost and he did not, and in desperation, he went searching for her to the basement, where Nalia's father died. Perhaps I should follow.~
+@10006 = ~Reunion.
+
+My brother, Daemon, is dead, and his demon army is defeated. Alianna's ghost was not happy about that, but at least I had an opportunity to get some answers from her. Now that the castle is free, I can return to Amkethran.~
+@10007 = ~Reunion.
+
+I decided not to kill my brother. Unfortunately, my troubles are not over yet: his demons are no longer under control, and I must head to the main hall and destroy them.~
+@10008 = ~Reunion.
+
+All demons in the main hall are dead. Daemon and I have decided not to kill each other, at least for the time being. Perhaps we would meet again, after all this is over, and find more about each other. I have also said goodbye to my mother, Alianna, and used the opportunity to get some of my questions answered. And, of course, Nalia's castle is free, so I can return to Amkethran now.~
+@10009 = ~A little boy.
+
+Captain Arat's son got lost on the castle walls. He asked me to find the boy.~
+@10010 = ~A little boy.
+
+I found a little boy on the castle walls. The boy also mentioned that he saw a ghost... I should probably head to the palisade west of the castle, check that the kid's all right.~
+@10011 = ~A little boy.
+
+Thankfully, Captain Arat's son is now safe, and I've gotten my reward.~
+@10012 = ~Chanelle the maid.
+
+Jessup, a former ranger and a local drunk, asked me for help. His former bride, Chanelle, is at the castle now, alone and lost, and Jessup wants me to get her to safety.~
+@10013 = ~Chanelle the maid.
+
+I found Chanelle in one of the rooms on the first floor. Poor girl was very frightened and bolted as soon as I tried to talk to her..~
+@10014 = ~Chanelle the maid.
+
+Jessup mentioned that Chanelle was safe and sound with her aunt, and rewarded me with a magical quiver.~
+@10015 = ~Wes, Lanie's father.
+
+I met a woman who was looking for her kid's father, Wes. He probably should be somewhere at the castle, perhaps at the courtyard.~ 
+@10016 = ~Wes, Lanie's father.
+
+I found Wes and told him Miranda was worried about him. He ran straight back, so I should probably check on them later.~
+@10017 = ~Wes, Lanie's father.
+
+I watched the family reunion and got a pair of magical bracers. All in all, a deed well done.~
+@10018 = ~Gheed's request.
+
+A tranvelling merchant, Gheed, asked me to find a statue of Lathander in the castle. I may look for it, though I don't like the look of the merchant. Maybe I shouldn't bother at all.~
+@10019 = ~Gheed's request.
+
+I found the statue in the treasury, but when I came back, Gheed took the statue, refused to pay me and teleported away. A novel experience indeed.~

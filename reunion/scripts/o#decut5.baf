@@ -1,0 +1,15 @@
+IF
+True()
+THEN
+RESPONSE #100
+CutSceneId(Player1)
+Wait(1)
+AddJournalEntry(@10016,QUEST)
+SetGlobal("O#DAEMom","GLOBAL",2)
+ActionOverride("O#DAEDAD",JumpToPoint([1138.3196]))
+ActionOverride("O#DAEDAD",FaceObject("O#DAEMOM")
+ActionOverride("O#DAEMOM",FaceObject("O#DAEDAD")
+ActionOverride("O#DAEKID",FaceObject("O#DAEDAD")
+Wait(1)
+EndCutSceneMode()
+END
