@@ -1,0 +1,141 @@
+@0 = ~The Reunion mod do Baldur's Gate II~
+@1 = ~Wyglada na to, ze nie masz zainstalowanego dodatku Tron Bhaala. Jest on wymagany do prawidlowego funkcjonowania modyfikacji The Reunion.~
+@2 = ~Odmawiam uwierzenia, ¿e jestem duchem! To mój zamek!~
+@3 = ~Nale¿a³ do naszego rodu od pokoleñ!~
+@4 = ~Ty! Znajdziesz moj¹ krn¹brn¹ bratanicê i to JU¯, albo ka¿ê ciê wych³ostaæ!~
+@5 = ~Dosyæ, rzucam to!~
+@6 = ~Kapitan Arat~
+@7 = ~Ch³opiec~
+@8 = ~Jessup~
+@9 = ~Chanelle~
+@10 = ~Lania~
+@11 = ~Miranda~
+@12 = ~Wes~
+@13 = ~Gheed~
+@14 = ~Demonus~
+@15 = ~Alianna~
+@16 = ~Gorion~
+@17 = ~Ranny mê¿czyzna~
+@18 = ~Z³y majordomus~
+@19 = ~Lady Delcia~
+@20 = ~Przera¿ona pokojówka~
+@21 = ~Kamieñ teleportacyjny Nalii~
+@22 = ~Kamieñ ten pozwoli ci bezpiecznie teleportowaæ siê z ka¿dego miejsca do Warowni d'Arnise, a stamt¹d z powrotem do Amkethran.~
+@23 = ~Masz siê st¹d wynosiæ!~
+
+/* Dziennik Demonusa */
+@1001 = ~Dziennik Demonusa, czêœæ I~
+@1002 = ~Wczoraj œni³ siê mi nasz dawny dom. Ksiê¿ycowa poœwiata nad ruczajem, wêdki w k¹cie i ca³y ten romantyczny bezsens. Tym niemniej pamiêæ o tym wci¹¿ boli. Znacznie bardziej, ni¿ s¹dzi³em, ¿e mog³aby.
+
+Moja matka, kap³anka Bhaala. Mój ojciec, tchórzliwy kmieæ, który porzuci³ nas, kiedy dowiedzia³ siê, kim by³a jego ¿ona. I ja. Kim mia³em siê staæ.
+
+Wygl¹da na to, ¿e nikim. Czy¿ nie, Demonusie? Pewnie, jesteœ wziêtym najemnikiem, wyszkolonym zabójc¹, a Ksi¹¿ê K³amstw spogl¹da na ciebie ³askawym okiem - tak d³ugo, jak trudnisz siê zabijaniem w jego imieniu. Czy jednak siê liczysz?
+
+Jest ktoœ, kto z pewnoœci¹ siê liczy, <PRO_SONDAUGHTER> naszej wspólnej matki, <CHARNAME>. W m³odoœci przyczyni³<PRO_HESHE> siê do œmierci naszej matki, masakry, a poœrednio tak¿e powstrzyma³<PRO_HESHE> odrodzenie Bhaala. Zdumiewaj¹ce, jak na niemowlê, czy¿ nie? Pozostawienie w sercu kniei dziesiêciolatka ze z³amanym ¿ebrem, by³o tylko skutkiem ubocznym.
+
+Gdyby tylko umar³<PRO_HESHE> tamtej nocy. Gdyby tylko zgodnie z wol¹ mojej matki z³o¿ono <PRO_MALEFEMALE> w ofierze. Wówczas moja matka wci¹¿ by ¿y³a, Pan Mordu rz¹dzi³by Otch³ani¹ a ja mia³bym dom. Jakie proste s³owo, dom. Jak bardzo mi go brakuje.
+
+Zamiast tego chowa³<PRO_HESHE> siê pod kluczem w Candlekeep poœród ksi¹g i zwojów, za mo¿noœæ przeczytania których da³bym sobie odci¹æ lew¹ rêkê. Cieszy siê hojnoœci¹ swojego przybranego ojca, podczas gdy mnie utrzymuj¹ przy ¿yciu odpadki. Och, bêdzie dla ni<PRO_HISHER> ³askawy... dopóki nie nadejdzie czas, gdy ujawni siê dziedzictwo Bhaala.
+
+Tak siê bowiem stanie. A wtedy <CHARNAME> bêdzie musia³<PRO_HESHE> wyœciubiæ nos zza chroni¹cych <PRO_MALEFEMALE> murów twierdzy.~
+@1003 = ~Dziennik Demonusa, czêœæ II~
+@1004 = ~Uda³em siê do Wrót Baldura, gdzie dowiedzia³em siê nieco na j<PRO_HISHER> temat. Podopieczn<PRO_HISHER> Goriona. Pokona³<PRO_HESHE> Sarevoka. Ocali³<PRO_HESHE> Wielkich ksi¹¿¹t i zapobieg³<PRO_HESHE> wojnie z Amn.
+
+<CHARNAME>. Gorion. Ci, którzy pozbawili mnie rodziny. Ci, których œmierci tak d³ugo pragn¹³em.
+
+Co tchu pogna³em do miasta, jednak on<PRO_HESHE> w³aœnie je opuœci³<PRO_HESHE>. Odjechawszy pod os³on¹ mroku w dziwnych okolicznoœciach, pad³<PRO_HESHE>, jak mi powiedziano, byæ mo¿e ofiar¹ porwania. Czy¿by ktoœ jeszcze wiedzia³ o j<PRO_HISHER> dziedzictwie? Któ¿ by to móg³ byæ? Inne Dzieciê Bhaala? Czy mo¿e jakiœ szalony mag, ¿¹dny doœwiadczeñ na wcielonym mistrzu, jak to boskie dzieciê, <CHARNAME>.
+
+Nie wiadomo. Jednak przynajmniej dowiedzia³em siê, ¿e ten stary Harfiarz nie ¿yje, zabity przez Sarevoka nieopodal Candlekeep. Bez grobu, bez pochówku, bez niczego - po prostu cia³o zostawione wilkom. Odpowiedni koniec.
+
+Co przypomnia³o mi, ¿e nie by³em na grobie matki ju¿ ponad rok. Powinienem siê tam udaæ, wiem, jednak za ka¿dym razem, gdy odwiedzam tê dolinê, przypominam sobie jej œmieræ. Po raz kolejny.
+
+Matka. Alianna. B³agaj¹ca na klêczkach, nó¿ w d³oni Goriona, ból w mojej piersi. A wtedy moje w³asne place zaczynaj¹ siê trz¹œæ, i nie mogê, nie mogê...
+
+(w tym miejscu karta zosta³a gwa³townie oderwana, kolejne linie tekstu s¹ nieczytelne)~
+@1005 = ~Dziennik Demonusa, czêœæ III~
+@1006 = ~Od czasu, gdy dowiedzia³em siê, ¿e <CHARNAME> opuœci³<PRO_HESHE> Candlekeep, staram siê <PRO_MALEFEMALE> odnaleŸæ. Prowadzi jednak ¿ywot równie zwodniczy, co prê¿ny.
+
+Dlaczego? Wiele uczyni³<PRO_HESHE> w minionych dwóch latach. Uratowa³<PRO_HESHE> warowniê d'Arnise przed inwazj¹ trolli, najecha³<PRO_HESHE> miasto drowów, a nawet, jak s³ysza³em, utraci³<PRO_HESHE> i odzyska³<PRO_HESHE> swoj¹ duszê.
+
+Cz¹stka mnie nadstawia ucha na wieœci o j<PRO_HISHER> wyczynach i pogl¹dach - oto pod¹¿a bratnia dusza, któr¹ móg³bym podziwiaæ. Oto <PRO_MANWOMAN>a wart<PRO_HESHE> wszystkiego, ktoœ, z kim móg³bym piæ ca³¹ noc i stworzyæ prawdziw¹ wiêŸ, tê jedyn¹, która bêdzie trwaæ. Ktoœ niesamowity, wykrêtny i rozwa¿ny. Ktoœ taki jak ja.
+
+I wówczas ³apiê siê na tym, o kim mowa. <CHARNAME>! Zupe³nie nieœwiadomie zrujnowa³<PRO_HESHE> moje ¿ycie, nawet nie wiedz¹c, ¿e istniejê. Doprowadzi³<PRO_HESHE> do œmierci mojej matki.
+
+Czy w ogóle powinienem siê trudniæ doszukiwaniem siê j<PRO_HISHER> dobrej strony. Pozwólmy j¹trzyæ siê nienawiœci.~
+@1007 = ~Dziennik Demonusa, czêœæ IV~
+@1008 = ~Wszystko jest gotowe. Któ¿ móg³by przewidzieæ, ¿e jeden amulet przywo³ywania mo¿e wywo³aæ takie zamieszanie? Oczywiœcie nie wolno mi rozg³aszaæ, ¿e wspiera mnie Ksi¹¿ê K³amstw, b¹dŸ ¿e jego kap³ani pomogli mi zdobyæ amulet, a wiêc przywo³aæ hordê demonów do zaw³adniêcia Warowni d'Arnise, o, nie. Przecie¿ <CHARNAME> bêdzie rywalizowa³ z Cyrikiem, czy¿ nie? Sfera wp³ywów Bhaala jest doskona³¹ nagrod¹, a w³adaæ ni¹ mo¿e tylko jedna osoba. S¹dzê, ¿e obaj wiemy, i¿ zwabiæ <PRO_MALEFEMALE> w pu³apkê oznaczaæ bêdzie korzyœæ dla Cyrika.
+
+Mo¿e nie jestem najbardziej oddanym uczniem Cyrika, jednak przysiêgam, ¿e dzisiejszej nocy obaj bêdziemy mieæ rozrywkê. Ja wraz z moj¹ armi¹ demonów i <CHARNAME> z... no w³aœnie, czyj¹ armi¹? Och, racja, on<PRO_HESHE> nie ma ¿adnej. Ups.
+
+Moi ludzie wyrzucili poza warowniê ca³¹ tutejsz¹ ludnoœæ; powiedziano mi, ¿e nikt w trakcie tego nie zgin¹³, zgodnie z moim rozkazem. Dobrze. Z jakichœ wzglêdów majordomus zdecydowa³ siê zostaæ - a¿ trudno uwierzyæ, ale czuje siê komfortowo poœród demonów. Niech sobie zostanie; nie dbam niemal o nic, prócz mojej zemsty.
+
+Teraz obserwowaæ i czekaæ. <CHARNAME> nadchodzi.~
+@1009 = ~Dziennik Demonusa, czêœæ V~
+@1010 = ~Niech to! Amulet wyrwa³ siê spod kontroli! Pewnie, mo¿na siê poczuæ wynagrodzonym, kiedy przypadkowo obracasz go w swojej d³oni, a na twoje kolana spada nagi sukkub, jednak znacznie mniej nêc¹cym jest, kiedy ta przeklêta istota próbuje odgryŸæ ci g³owê, a ostrza znajduj¹ siê odrobinê poza twoim zasiêgiem. O, fuj! Prze¿y³em, bo uciek³em tutaj, ale koniec jest bliski.
+
+Zobacz, gdzie zaprowadzi³y ciê twoje gierki, Demonusie: do siedzenia na strzaskanej toalecie i ukrywania siê przed zbieszonymi dwoma Alu-biesami i sukkubem. Nadzwyczaj przebieg³e, jasne, jednak muszê siê st¹d wydostaæ, nim przybêdzie tu <CHARNAME>, a ze szturmuj¹c¹ drzwi wampiryczn¹ groz¹ i moj¹ broni¹ pozostawion¹ po drugiej ich stronie nie ma na to ³atwego sposobu. Ucieczka studzienk¹ œciekow¹ tak¿e nie wchodzi w rachubê.
+
+Ba! Wci¹¿ jeszcze mam sztylet i p³aszcz, a przyparty do muru jestem nawet bardziej niebezpieczny. Czy wampiryczna groza jest cielesna czy te¿ nie? Czas siê przekonaæ!~
+
+/* JOURNAL ENTRIES */
+
+@10000 = ~Pojednanie
+
+Nalia oznajmi³a mi przygnêbiaj¹c¹ wieœæ: jej warownia jest w niebezpieczeñstwie! Mogê u¿yæ jej kamienia teleportacyjnego by siê tam dostaæ - a nastêpnie wróciæ do Amkethran.~
+@10001 = ~Pojednanie
+
+Ranny mê¿czyzna u wrót powiedzia³ mi, ¿e warownia zosta³a przejêta przez demony, przyzwane przez ubranego w czerñ m³odzieñca, który, na to wygl¹da, mocno mnie nienawidzi. Ciekawe dlaczego?~
+@10002 = ~Pojednanie
+
+Walczyliœmy z odpowiedzialnym za atak i pokonaliœmy go, jednak uda³o siê mu uciec. Ten ca³y Demonus naprawdê ma coœ do mnie, ale dlaczego? Byæ mo¿e uciek³ na górê.~
+@10003 = ~Pojednanie
+
+Spotkaliœmy ducha mojej matki! Czy te¿ wygl¹daj¹cego jak ona. Powinniœmy kontynuowaæ przeszukiwanie warowni i znaleŸæ j¹ - oraz odpowiedzi.~
+@10004 = ~Pojednanie
+
+Ponownie spotkaliœmy ducha Alianny. Opowiedzia³a nam historiê swojego ¿ycia i poprosi³a o, jeœli to bêdzie mo¿liwe, oszczêdzenie Demonusa. ¯yczeniem jej by³o, abym pogodzi³<PRO_HESHE> siê z moim przywo³uj¹cym demony bratem. Pokój czy nie, nie mo¿e byæ daleko.~
+@10005 = ~Pojednanie
+
+Starliœmy siê z moim bratem, Demonusem. By³ wœciek³y, ¿e Alianna spotka³a siê ze mn¹, a nie z nim, i w desperacji zbieg³ do lochu, w którym zgin¹³ ojciec Nalii. Byæ mo¿e powinniœmy udaæ siê tam za nim.~
+@10006 = ~Pojednanie
+
+Mój brat, Demonus, nie ¿yje, a jego demoniczna armia zosta³a pokonana. Duch Alianny nie by³ zachwycony takim obrotem sprawy, jednak przynajmniej uda³o siê wyci¹gn¹æ z niej nieco odpowiedzi. Warownia jest teraz wolna, a ja mogê wróciæ do Amkethran.~
+@10007 = ~Pojednanie
+
+Zdecydowaliœmy siê nie zabijaæ mojego brata. Niestety to nie wyczerpuje naszych problemów: przywo³ane przezeñ demony wyrwa³y siê spod kontroli, a my musimy udaæ siê do g³ównej sali i zniszczyæ je.~
+@10008 = ~Pojednanie
+
+Wszystkie demony w g³ównej sali s¹ martwe. Wraz z Demonusem zdecydowaliœmy nie zabijaæ siê nawzajem, przynajmniej w czasie pobytu tutaj. Mo¿e moglibyœmy siê spotkaæ, gdy wszystko siê skoñczy, i dowiedzieæ siê wiêcej o sobie nawzajem. Muszê tak¿e po¿egnaæ siê z moj¹ matk¹, Aliann¹, i, korzystaj¹c z okazji, wyci¹gn¹æ nieco odpowiedzi na moje pytania. I, oczywiœcie, warownia jest wolna, mogê wiêc ju¿ wróciæ do Amkethran.~
+@10009 = ~Ch³opiec
+
+Syn kapitana Arata zgubi³ siê na murach warowni. Kapitan poprosi³ mnie o znalezienie ch³opca.~
+@10010 = ~Ch³opiec
+
+ZnaleŸliœmy ch³opca na murach zamku. Wspomnia³, ¿e widzia³ ducha... Mo¿e powinniœmy skierowaæ siê ku palisadzie na zachód od warowni i sprawdziæ, czy ch³opiec ma siê dobrze.~
+@10011 = ~Ch³opiec
+
+Na szczêœcie syn kapitana Arata jest bezpieczny, a my zostaliœmy wynagrodzeni.~
+@10012 = ~Pokojówka Chanelle
+
+Poprosi³ mnie o pomoc Jessup, by³y ³owca i miejscowy pijak. Jego dawna narzeczona, Chanelle, przebywa obecnie w warowni, sama i zagubiona, a Jessup chce, bym j¹ stamt¹d wydosta³<PRO_HESHE>.~
+@10013 = ~Pokojówka Chanelle
+
+W jednym z pokojów na pierwszym piêtrze spotkaliœmy Chanelle. Biedne dziewczê umiera³o ze strachu i czmychnê³o, gdy tylko przemówiliœmy do niej.~
+@10014 = ~Pokojówka Chanelle
+
+Jessup wspomnia³, ¿e Chanelle ca³a i zdrowa przebywa u swojej ciotki, oraz wynagrodzi³ mnie magicznym ko³czanem.~
+@10015 = ~Wes, ojciec Lani
+
+Spotkaliœmy kobietê, która poszukiwa³a ojca swojego dziecka, Wesa. Prawdopodobnie powinien byæ gdzieœ w warowni, mo¿e na dziedziñcu.~ 
+@10016 = ~Wes, ojciec Lani
+
+ZnaleŸliœmy Wesa i powiedzieliœmy mu o martwi¹cej siê o niego Mirandzie. S³ysz¹c to natychmiast pobieg³ z powrotem. Za jakiœ czas byæ mo¿e powinniœmy sprawdziæ, co u nich s³ychaæ.~
+@10017 = ~Wes, ojciec Lani
+
+Spotkaliœmy rodzinê po³¹czon¹ ponownie i otrzymaliœmy parê magicznych bransolet. Podsumowuj¹c, dobrze spe³niony uczynek.~
+@10018 = ~Proœba Gheeda
+
+ObwoŸny handlarz, Gheed, poprosi³ nas o znalezienie w warowni statuy Lathandera. Mo¿emy siê rozejrzeæ, choæ nie podoba³o siê mi spojrzenie tego handlarza. Mo¿e nie powinniœmy siê w ogóle za to zabieraæ?~
+@10019 = ~Proœba Gheeda
+
+ZnaleŸliœmy statuê w skarbcu, jednak kiedy wróciliœmy, Greed zabra³ figurkê, odmówi³ zap³aty i teleportowa³ siê st¹d. Osobliwe doœwiadczenie, w rzeczy samej.~

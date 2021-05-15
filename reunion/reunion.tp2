@@ -1,6 +1,6 @@
 BACKUP ~Reunion/Backup~
 AUTHOR ~http://forums.pocketplane.net~
-VERSION ~v6~
+VERSION ~v7~
 
 README ~Reunion/Readme-Reunion-%LANGUAGE%.txt~ ~Reunion/Readme-Reunion.txt~
 
@@ -42,6 +42,7 @@ LANGUAGE ~English~ ~English~ ~Reunion/English/Setup-Reunion.tra~
 LANGUAGE ~Francais (traduit par Le Marquis des d'Oghmatiques)~ ~French~ ~Reunion/French/Setup-Reunion.tra~
 LANGUAGE ~Chinese (translation by Merzbau)~ ~Schinese~ ~Reunion/Schinese/Setup-Reunion.tra~
 LANGUAGE ~Russian (translation by Austin)~ ~Russian~ ~Reunion/Russian/Setup-Reunion.tra~
+LANGUAGE ~Polish (translation by Stars of Mystra)~ ~Polish~ ~Reunion/Polish/Setup-Reunion.tra~
 
 BEGIN @0
 

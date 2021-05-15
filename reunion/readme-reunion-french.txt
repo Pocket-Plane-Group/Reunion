@@ -1,5 +1,5 @@
 		Mod Reunion pour Baldur's Gate II : Throne of Bhaal
-				   Version 6
+				   Version 7
 			  Une création du Pocket Plane Group
 			       http://www.pocketplane.net
 
@@ -140,6 +140,8 @@ French translation by Le Marquis (of the d'Oghmatiques).
 
 Chinese translation: Merzbau
 
+Polish Translation: by Aristo, memory, morgan, Christoff (Stars of Mystra)
+
 Reunion a pu voir le jour grâce aux logiciels suivants :
 
 DLTCEP				http://www.gibberlings3.net/tools
@@ -152,6 +154,9 @@ http://iesdp.gibberlings3.net
 -------------------
 6. Version History
 -------------------
+
+Version 7
+-Polish version by Aristo, memory, morgan, Christoff (Stars of Mystra)
 
 Version 6
 -updated .ini file with the GitHub address for download

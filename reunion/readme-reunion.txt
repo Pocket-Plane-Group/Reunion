@@ -1,5 +1,5 @@
 		The Reunion MOD for Baldur's Gate II: Throne of Bhaal
-				   Version 6
+				   Version 7
 			  A Pocket Plane Group Project
 			   http://www.pocketplane.net
 
@@ -179,6 +179,8 @@ French translation: Le Marquis (of the d'Oghmatiques)
 
 Chinese Translation: Merzbau
 
+Polish Translation: by Aristo, memory, morgan, Christoff (Stars of Mystra)
+
 Reunion was created with the following software:
 
 DLTCEP					http://www.gibberlings3.net/tools
@@ -191,6 +193,9 @@ http://iesdp.gibberlings3.net
 -------------------
 6. Version History
 -------------------
+
+Version 7
+-Polish version by Aristo, memory, morgan, Christoff (Stars of Mystra)
 
 Version 6
 -updated .ini file with the GitHub address for download
