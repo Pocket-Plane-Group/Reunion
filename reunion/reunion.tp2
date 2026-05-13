@@ -22,7 +22,7 @@ ALWAYS
 
   // Setup-Reunion.tra contains in game texts as well as installation texts
   // and need to be converted then reloaded
-  ACTION_DEFINE_ARRAY O#noconvert BEGIN END
+  ACTION_DEFINE_ARRAY O#noconvert BEGIN install END
   ACTION_DEFINE_ARRAY O#reload BEGIN Setup-Reunion END
 
   LAF HANDLE_CHARSETS
@@ -40,7 +40,7 @@ AUTO_TRA ~Reunion/%s~  //%
 
 LANGUAGE ~English~ ~English~ ~Reunion/English/Setup-Reunion.tra~
 LANGUAGE ~Francais (traduit par Le Marquis des d'Oghmatiques)~ ~French~ ~Reunion/French/Setup-Reunion.tra~
-LANGUAGE ~Chinese (translation by Merzbau)~ ~Schinese~ ~Reunion/Schinese/Setup-Reunion.tra~
+LANGUAGE ~Chinese (translation by Merzbau)~ ~Schinese~ ~Reunion/Schinese/install.tra~
 LANGUAGE ~Russian (translation by Austin)~ ~Russian~ ~Reunion/Russian/Setup-Reunion.tra~
 LANGUAGE ~Polish (translation by Stars of Mystra)~ ~Polish~ ~Reunion/Polish/Setup-Reunion.tra~
 
